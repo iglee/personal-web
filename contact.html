@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="padding-top: 60px;margin: 100;padding: 100;font-family: 'Text Me One', sans-serif;">
+<body style="padding-top: 60px;">
     <nav class="navbar navbar-light navbar-expand-md fixed-top" style="padding: 10px;height: 60px;font-family: 'Text Me One', sans-serif;background-color: white;opacity: 0.90;">
         <div class="container-fluid"><a class="navbar-brand" href="index.html" style="font-family: 'Text Me One', sans-serif;font-size: 25px;">IGL</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
@@ -28,21 +28,14 @@
         </div>
         </div>
     </nav>
-    <div id="row" class="row">
-        <div id="col-left" class="column-left" style="padding-top: 114px;padding-left: 23px;">
-            <div id="profile-pic" class="profile-pic" style="width: 200px;height: 200px;padding: 20px;"><img src="assets/img/profile.jpg" style="width: 150px;height: 150px;border-radius: 50%;"></div>
-            <div id="social-icons" class="social-icons" style="height: 60px;width: 200px;padding-top: 8px;padding-left: 45px;"><a class="fa fa-twitter-square" style="width: 35px;height: 35px;font-size: 38px;" href="https://twitter.com/i_g_lee"></a><a class="fa fa-github-square" style="font-size: 38px;width: 35px;height: 38px;" href="http://github.com/iglee"></a><a class="fa fa-linkedin-square" style="width: 35px;height: 35px;font-size: 38px;" href="https://www.linkedin.com/in/iglee/"></a></div>
-            <div class="twitter-timeline-scroll" style="min-width: 160px;width: 184px;margin-left: 10px;height: 250px;"><a class="twitter-timeline" href="https://twitter.com/i_g_lee?ref_src=twsrc%5Etfw">Tweets by i_g_lee</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-        </div>
-        <div id="col-right" class="column-right" style="font-size: 13px;width: 320px;max-width: 450px;margin-top: 120px;height: 800px;margin-left: 35px;padding: 5px;"><p>Hi! I'm Isabelle Lee.<br><br>I'm currently a research scientist at Amazon, working on Natural Language Understanding for Alexa Communications. I'm also a part-time graduate student in Computer Sciece at University of Washington. My interest lies in all things Machine Learning, Natural Language Processing, and Computational Linguistics.<br><br>My background had been in Physics and Math.  Through a few projects, a startup, and professional trainings, I was introduced to Data Science and Deep Learning. I speak primarily English and Korean, and I can order coffee in Spanish, German, and Japanese.<br><br>Besides work, I run, try recipes, write essays/short stories, and travel. Currently learning how to box.</p>
-            <div style="margin-top: 70px;overflow: scroll;height: 300px;">
-                <h5>News</h5>
-                <ul class="list-unstyled">
-                    <li>July 11, 2020&nbsp; &nbsp; Hello world!</li>
-                </ul>
-            </div>
-        </div>
+    <div class="contact-clean" style="font-family: 'Text Me One', sans-serif;background-color: rgb(255,255,255);">
+        <form data-bss-recipient="e6018a40d746b052e98cd9db47397a30">
+            <h2 class="text-center">Contact me</h2>
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" required=""></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14" required="" minlength="10"></textarea></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+        </form>
     </div>
     <div class="footer-basic">
         <footer>
