@@ -1,0 +1,15 @@
+.column-left {
+  width: 30%;
+  margin-left: 15px;
+  padding-top: 150px;
+  padding-left: 77px;
+}
+
+.column-right {
+}
+
+.twitter-timeline-scroll {
+  height: 300px;
+  overflow: auto;
+}
+
