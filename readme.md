@@ -1,2 +1,2 @@
 # Personal website
-Designed and created a personal website for portfolio!
+Designed and created a simple personal website for profile, projects, resume, etc.!
